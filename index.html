@@ -37,12 +37,14 @@
         <div class="panel-heading">Add Train</div>
         <form>
           Train Name:<br>
-          <input type="text" name="train name" value=""><br>
+          <input id="trainName" type="text" name="train name" value=""><br>
           Destination:<br>
-          <input type="text" name="destination" value=""><br>
-          <input type="text" name="" value=""><br>
-          <input type="text" name="" value=""><br>
-          <input type="text" name="" value="">
+          <input id="destination" type="text" name="destination" value=""><br>
+          First Train Time(HH:mm-military time)<br>
+          <input id="trainTime" type="text" name="trainTime" value=""><br>
+          Frequency (min)<br>
+          <input id="frequency" type="text" name="" value=""><br>
+          <input id="addNewTrain"type="submit" name="" value="submit">
         </form>
 
 
@@ -55,14 +57,14 @@
 
 
 
-  //jquery
+
   <script
   src="http://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
-  //firebase
+
   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
-  //js
+
   <script type="text/javascript" src="assets/JS/app.js"></script>
 </body>
 </html>
